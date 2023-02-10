@@ -13,7 +13,7 @@ body{
     height: 100vh;
 }
 .signup{
-    background-color: rgb(252, 252, 121);
+    background-color:rgb(76 76 76 / 9%);
     width: 400px;
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.212);
 
 }
 .form{
@@ -29,6 +30,8 @@ body{
     flex-direction: column;
     border-radius: 10px;
     gap: 10px;
+   
+    
     
    
 }
@@ -41,12 +44,13 @@ body{
     border: none;
     font-size: 20px;
     border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.212);
    
     
 
 }
 .btn{
-  background-color: yellow;  
+  background:yellow;  
   outline: none;
   padding: 10px;
   margin: 5px;
@@ -54,6 +58,8 @@ body{
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.212);
+  
 }
 .login{
     display: flex;
@@ -65,3 +71,10 @@ body{
     
 }
 
+.btn:hover{
+    border: 2px solid white;
+    background: rgb(59, 14, 224);
+    color: black;
+    border: none;
+
+ }
